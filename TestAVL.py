@@ -33,9 +33,6 @@ if __name__ == "__main__":
     print("\nDeleting node with key 25")
     root = my_tree.delete(root, 25)
 
-    print("\nTraversal In-Order after deletion:")
-    my_tree.traverse(root, 'in')
-    
     #Imprime AVL tree con 100 nodos
     my_tree.draw(root)
     
